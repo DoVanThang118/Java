@@ -39,5 +39,13 @@ public class Demo {
         tg.chuVi();
         System.out.println( "dien tich = "+tg.dienTich()+" cm2");
         System.out.println("chu vi = "+tg.chuVi()+" cm");
+
+
+        Fraction f = new Fraction();
+        f.setX(6);
+        f.setY(9);
+        f.phanSo();
+        System.out.println("phân số là : "+f.phanSo());
+
     }
 }

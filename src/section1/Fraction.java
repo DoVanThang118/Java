@@ -24,6 +24,9 @@ public class Fraction {
         this.y = y;
     }
 
+    public String phanSo(){
+        return x+"/"+y;
+    }
 
 
 }
