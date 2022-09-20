@@ -73,7 +73,11 @@ public class Fraction {
         return tich;
     }
 
-    public void div(){
-
+    public Fraction div(Fraction f){
+        Fraction thuong = new Fraction();
+        thuong.setTuSo(this.tuSo*f.mauSo);
+        thuong.setMauSo(this.mauSo*f.tuSo);
+        thuong.rutGon();
+        return thuong;
     }
 }

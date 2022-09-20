@@ -19,5 +19,14 @@ public class Main {
 
         Fraction t = f1.add(f2);
         t.inPhanSo();
+
+        Fraction h = f1.sub(f2);
+        h.inPhanSo();
+
+        Fraction n = f1.mul(f2);
+        n.inPhanSo();
+
+        Fraction c = f1.div(f2);
+        c.inPhanSo();
     }
 }
