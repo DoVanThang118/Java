@@ -1,4 +1,4 @@
-package section1;
+package session1;
 
 import static java.lang.Math.sqrt;
 

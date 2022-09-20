@@ -1,4 +1,4 @@
-package section1;
+package session1;
 
 public class Bike {
     public void  run(){

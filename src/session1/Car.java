@@ -1,7 +1,7 @@
-package section1;
+package session1;
 
 public class Car {
-    String brand = "BMV";
+    public String brand = "BMV";
     int year = 2022;
 
     static String color;
