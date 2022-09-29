@@ -3,16 +3,16 @@ package assignment5;
 import java.util.Arrays;
 import java.util.OptionalDouble;
 
-public class News implements INewInterface {
+public class INews implements INewInterface {
     public int ID;
     public String Title,PublishDate,Author, Content;
     public float AverageRate;
     public int[] RateList = new int[3];
 
-    public News() {
+    public INews() {
     }
 
-    public News(int ID, String title, String publishDate, String author, String content, float averageRate) {
+    public INews(int ID, String title, String publishDate, String author, String content, float averageRate) {
         this.ID = ID;
         Title = title;
         PublishDate = publishDate;
