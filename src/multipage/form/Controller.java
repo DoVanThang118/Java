@@ -27,7 +27,7 @@ public class Controller {
         Main.rootStage.setScene(listScene);
     }
 
-    private ObservableList<Subject> list = FXCollections.observableArrayList();
+    public static ObservableList<Subject> list = FXCollections.observableArrayList();
     public void addSubject(ActionEvent actionEvent) {
         try {
             errors.setVisible(false);
