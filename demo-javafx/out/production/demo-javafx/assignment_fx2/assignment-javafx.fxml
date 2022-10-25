@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="assignment_fx2.Assignment2Controller">
+   <children>
+      <TextField fx:id="txtName" layoutX="43.0" layoutY="45.0" promptText="name" />
+      <TextField fx:id="txtEmail" layoutX="43.0" layoutY="90.0" promptText="email" />
+      <TextField fx:id="txtMark" layoutX="43.0" layoutY="134.0" promptText="mark" />
+      <ListView fx:id="lv" layoutX="323.0" layoutY="45.0" prefHeight="322.0" prefWidth="200.0" />
+      <Button layoutX="91.0" layoutY="188.0" mnemonicParsing="false" text="add" />
+      <Text fx:id="errors" fill="#ee0202" layoutX="58.0" layoutY="237.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ơ kìa !!! Chú bé đần !!!" visible="false" />
+      <Button layoutX="323.0" layoutY="20.0" mnemonicParsing="false" text="sort name" />
+      <Button layoutX="413.0" layoutY="20.0" mnemonicParsing="false" text="sort mark" />
+   </children>
+</Pane>

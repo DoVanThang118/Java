@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="assignment_fx1.Assignment1Controller">
+   <children>
+      <TextField fx:id="txtName" layoutX="41.0" layoutY="57.0" prefHeight="36.0" prefWidth="149.0" promptText="Name" />
+      <TextField fx:id="txtNumber" layoutX="41.0" layoutY="119.0" prefHeight="36.0" prefWidth="149.0" promptText="Phone Number" />
+      <Button layoutX="74.0" layoutY="188.0" mnemonicParsing="false" onAction="#handleAdd" prefHeight="25.0" prefWidth="84.0" text="ADD" />
+      <Text fx:id="notice" fill="#f20202" layoutX="41.0" layoutY="168.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+      <ListView fx:id="lv" layoutX="280.0" layoutY="57.0" prefHeight="296.0" prefWidth="253.0" />
+   </children>
+</Pane>

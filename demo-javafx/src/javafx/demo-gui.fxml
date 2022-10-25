@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane fx:controller="javafx.Controller" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" >
+   <children>
+      <TextField fx:id="txtFullName" layoutX="31.0" layoutY="46.0" prefHeight="25.0" prefWidth="252.0" promptText="Full Name" />
+      <TextField fx:id="txtEmail" layoutX="31.0" layoutY="102.0" prefHeight="25.0" prefWidth="252.0" promptText="Email" />
+      <TextField fx:id="txtAge" layoutX="31.0" layoutY="155.0" prefHeight="25.0" prefWidth="252.0" promptText="Age" />
+      <TextArea fx:id="txtAddress" layoutX="31.0" layoutY="206.0" prefHeight="90.0" prefWidth="252.0" promptText="Address" />
+      <Button layoutX="274.0" layoutY="339.0" mnemonicParsing="false" onAction="#handleSubmit" text="submit" />
+      <Text fx:id="fullName" layoutX="334.0" layoutY="63.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+      <Text fx:id="email" layoutX="334.0" layoutY="119.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+      <Text fx:id="age" layoutX="334.0" layoutY="172.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+      <Text fx:id="address" layoutX="334.0" layoutY="219.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+      <Text fx:id="noticeFullName" fill="#fc0808" layoutX="31.0" layoutY="84.0" strokeType="OUTSIDE" strokeWidth="0.0" text="hello" visible="false" />
+      <Text fx:id="noticeEmail" fill="#f20606" layoutX="33.0" layoutY="140.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+      <Text fx:id="noticeAge" fill="#f80202" layoutX="33.0" layoutY="193.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+      <Text fx:id="noticeAddress" fill="#fc0303" layoutX="33.0" layoutY="309.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+   </children>
+</Pane>
